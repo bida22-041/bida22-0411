@@ -1,0 +1,203 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    height: 80px;
+    padding: 0 20px;
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    color: darkcyan;
+  }
+body {
+background-color: black;
+color: lightskyblue;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    font-family: italian;
+    text-align: center;
+}
+.contacts{
+    min-height: 100vh;
+    display: flex; 
+    align-items: center;  
+    justify-content: center;
+    text-align: center;
+    }
+     
+   .contact-info{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    }
+    .box{
+     background:darkcyan;
+     padding: 0 20px;
+     margin: 0 10px;
+     width: calc(33% - 20px);
+     height: 200px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color: #fff;
+     cursor: pointer;
+     }
+     .card-icon{
+     font-size: 28px;
+     background: white;
+     width: 60px;
+     height: 60px;
+     text-align: center;
+     line-height: 60px !important;
+     border-radius: 50%;
+     transition: 0.3s linear;
+     }
+
+     
+     
+     
+     .card:hover .card-icon{
+     background: none;
+     color: #000000;
+     transform: scale(1.6);
+     }
+     
+     .card p{
+     margin-top: 20px;
+     font-weight: 300;
+     background-color: #000000;
+     letter-spacing: 2px;
+     max-height: 0;
+     opacity: 0;
+     transition: 0.3s linear;
+      }
+     
+      .card:hover p{
+    max-height: 40px;
+    opacity: 1;
+    }
+
+    .location {
+        align-content: center;
+    }
+    .First{
+      color: white;
+      text-align: center;
+      font-size: 16;
+      image-orientation: width;
+      border: 2px solid darkcyan;}
+      .container{
+          width:100%;
+          margin: 100px auto 50px;
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+          grid-gap: 30px;
+         }
+         .container img{
+           width: 100%;
+           cursor:pointer;
+           border-radius: 10px;
+           }
+           .container button{
+            background-color: darkcyan;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+          }
+          .ring {
+            display: inline-block;
+            color: white;
+            border-radius: 50%;
+            padding: 20px;
+            box-shadow: 0 0 0 10px darkcyan;
+          }
+          
+
+           .Second{
+              color: white;
+              text-align: center;
+              font-size: 16;
+              image-orientation: width;
+              border: 2px solid goldenrod;}
+              .container{
+                  width:100%;
+                  margin: 100px auto 50px;
+                  display: grid;
+                  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                  grid-gap: 30px;
+                 }
+                 .container img{
+                   width: 100%;
+                   cursor:pointer;
+                   border-radius: 10px;
+                   }
+          .contained{
+              color: white;
+              text-align: center;
+              font-family: Arial, sans-serif;
+        font-size: 24px;
+        padding-bottom: 100px;
+          }
+          footer {
+            background-color: darkcyan;
+            color: white;
+            font-size: 24px;
+            padding: 10px;
+        }
+        
+        .about-us, .feedback {
+            margin-right: 10px;
+        }
+        
+        .about-us h3, .feedback h3 {
+            font-size: 14px;
+        }
+        
+        .about-us p {
+            font-size: 12px;
+        }
+        
+        .feedback input[type=text], .feedback input[type=email], .feedback textarea {
+            font-size: 12px;
+            padding: 5px;
+        }
+        
+        .feedback input[type=submit] {
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+        
